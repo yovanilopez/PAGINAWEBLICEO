@@ -1,1 +1,66 @@
-/* You can add global styles to this file, and also import other style files */
+/* Espacio para evitar que el contenido quede bajo el navbar */
+body {
+  padding-top: 80px;
+}
+
+/* Estado inicial del navbar */
+#navbar {
+  background: rgba(205, 219, 0, 0.7);
+  color: #000;
+  box-shadow: none;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Links iniciales */
+#navbar .nav-link,
+#navbar .navbar-brand {
+  color: #000 !important;
+  transition: color 0.4s ease;
+}
+
+/* Hover */
+#navbar .nav-link:hover {
+  color: #071770 !important;
+}
+
+/* Al hacer scroll */
+#navbar.scrolled {
+  background: #003366; /* color más oscuro */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease-in-out;
+}
+
+/* Cambia color del texto cuando se activa el scroll */
+#navbar.scrolled .nav-link,
+#navbar.scrolled .navbar-brand {
+  color: #fff !important;
+}
+
+/* Animación de aparición */
+#navbar {
+  animation: slideDown 0.6s ease;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Estilo del dropdown */
+.dropdown-menu {
+  background: rgb(205, 219, 0);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #003366;
+  color: #fff !important;
+}
+
