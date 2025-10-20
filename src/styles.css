@@ -33,7 +33,7 @@ body {
 /* Cambia color del texto cuando se activa el scroll */
 #navbar.scrolled .nav-link,
 #navbar.scrolled .navbar-brand {
-  color: #fff !important;
+  color: #ffffff !important;
 }
 
 /* Animación de aparición */
@@ -54,13 +54,19 @@ body {
 
 /* Estilo del dropdown */
 .dropdown-menu {
-  background: rgb(205, 219, 0);
+  background: rgba(208, 221, 24, 0.822);
   border: none;
   transition: all 0.3s ease;
+  font-family: Dancing Script, cursive;
+  
+  
+  
 }
 
 .dropdown-item:hover {
-  background-color: #003366;
-  color: #fff !important;
+  background-color: #000f66;
+  color: #02020f !important;
+  
+  
 }
 
