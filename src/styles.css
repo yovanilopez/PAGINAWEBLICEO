@@ -53,8 +53,8 @@ body {
 }
 
 /* Estilo del dropdown */
-.dropdown-menu {
-  background: rgba(208, 221, 24, 0.822);
+.dropdown-menu{
+  background: rgba(163, 173, 16, 0.822);
   border: none;
   transition: all 0.3s ease;
   font-family: Dancing Script, cursive;
