@@ -1,0 +1,1073 @@
+
+
+body {
+background-color: rgb(14, 14, 105);
+}
+
+
+.main-header {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(122, 124, 167, 0.6);
+  z-index: 10;
+}
+
+.carousel-inner img {
+  filter: brightness(0.7);
+}
+
+ .secction1 {
+   position: relative;
+   background: url(https://www.prensalibre.com/wp-content/uploads/2018/12/d0ea0e9b-7935-4d75-98a7-b9cd556290c7.jpg?quality=52);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+ }
+
+ /* 🟪 Capa de color encima del fondo */
+ .background-overlay1 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(120, 122, 172, 0.6);
+   /* Azul translúcido */
+   z-index: 1;
+ }
+
+ /* 🟨 Contenido */
+ .secction1 .container {
+   position: relative;
+   z-index: 2;
+   /* Sobre el overlay */
+   color: rgb(3, 3, 5);
+   font-family: Dancing Script, cursive;
+   font-weight: bolder;
+   font-style: normal;
+   padding: 40px 20px;
+ }
+
+ .secction1 .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+ }
+
+ .secction1 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction1 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction1 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction1 p,
+ .secction1 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction1 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction1 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction1 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction1 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction1 h4 {
+     font-size: 26px;
+   }
+
+   .secction1 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction1 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction1 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction1 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction1 p,
+ .secction1 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction1 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction1 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction1 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction1 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction1 h4 {
+     font-size: 26px;
+   }
+
+   .secction1 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+ /* CUARTO COMPUTACION BACHILLERATO */
+ .secction2 {
+   position: relative;
+   background-image: url(https://i.ibb.co/zbmpNq8/Whats-App-Image-2024-05-20-at-1-46-06-PM.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+ }
+
+ /* 🟪 Capa de color encima del fondo */
+ .background-overlay2 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(120, 122, 172, 0.6);
+   /* Azul translúcido */
+   z-index: 1;
+ }
+
+ /* 🟨 Contenido */
+ .secction2 .container {
+   position: relative;
+   z-index: 2;
+   /* Sobre el overlay */
+   color: rgb(3, 3, 5);
+   font-family: Dancing Script, cursive;
+   font-weight: bolder;
+   font-style: normal;
+   padding: 40px 20px;
+ }
+
+ .secction2 .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+ }
+
+ .secction2 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction2 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction2 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction2 p,
+ .secction2 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction2 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction2 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction2 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction2 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction2 h4 {
+     font-size: 26px;
+   }
+
+   .secction2 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction2 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction2 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction2 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction2 p,
+ .secction2 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction2 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction2 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction2 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction2 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction2 h4 {
+     font-size: 26px;
+   }
+
+   .secction2 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+ /* CUARTO COMPUTACION PERITO */
+ .secction3 {
+   position: relative;
+   background: url(https://i.ibb.co/C9vwqkX/Whats-App-Image-2024-07-01-at-11-38-32-AM-1.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+ }
+
+ /* 🟪 Capa de color encima del fondo */
+ .background-overlay3 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(120, 122, 172, 0.6);
+   /* Azul translúcido */
+   z-index: 1;
+ }
+
+ /* 🟨 Contenido */
+ .secction3 .container {
+   position: relative;
+   z-index: 2;
+   /* Sobre el overlay */
+   color: rgb(3, 3, 5);
+   font-family: Dancing Script, cursive;
+   font-weight: bolder;
+   font-style: normal;
+   padding: 40px 20px;
+ }
+
+ .secction3 .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+ }
+
+ .secction3 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction3 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction3 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction3 p,
+ .secction3 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction3 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction3 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction3 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction3 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction3 h4 {
+     font-size: 26px;
+   }
+
+   .secction3 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction3 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction3 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction3 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction3 p,
+ .secction3 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction3 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction3 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction3 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction3 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction3 h4 {
+     font-size: 26px;
+   }
+
+   .secction3 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+ /*MEIBI */
+ .secction4 {
+   position: relative;
+   background: url(https://i.ibb.co/sK34Vzh/Whats-App-Image-2024-07-01-at-11-43-41-AM.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+ }
+
+ /* 🟪 Capa de color encima del fondo */
+ .background-overlay4 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(120, 122, 172, 0.6);
+   /* Azul translúcido */
+   z-index: 1;
+ }
+
+ /* 🟨 Contenido */
+ .secction4 .container {
+   position: relative;
+   z-index: 2;
+   /* Sobre el overlay */
+   color: rgb(3, 3, 5);
+   font-family: Dancing Script, cursive;
+   font-weight: bolder;
+   font-style: normal;
+   padding: 40px 20px;
+ }
+
+ .secction4 .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+ }
+
+ .secction4 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction4 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction4 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction4 p,
+ .secction3 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction4 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction4 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction4 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction4 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction4 h4 {
+     font-size: 26px;
+   }
+
+   .secction4 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction4 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction4 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction4 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction4 p,
+ .secction4 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction4 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction4 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction4 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction4 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction4 h4 {
+     font-size: 26px;
+   }
+
+   .secction4 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ /*MEIBI */
+ .secction5 {
+   position: relative;
+   background: url(https://i.ibb.co/sK34Vzh/Whats-App-Image-2024-07-01-at-11-43-41-AM.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+ }
+
+ /* 🟪 Capa de color encima del fondo */
+ .background-overlay5 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(120, 122, 172, 0.6);
+   /* Azul translúcido */
+   z-index: 1;
+ }
+
+ /* 🟨 Contenido */
+ .secction5 .container {
+   position: relative;
+   z-index: 2;
+   /* Sobre el overlay */
+   color: rgb(3, 3, 5);
+   font-family: Dancing Script, cursive;
+   font-weight: bolder;
+   font-style: normal;
+   padding: 40px 20px;
+ }
+
+ .secction5 .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+ }
+
+ .secction5 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction5 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction5 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction5 p,
+ .secction5 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction5 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction5 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction5 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction5 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction5 h4 {
+     font-size: 26px;
+   }
+
+   .secction5 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction5 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction5 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction5 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction5 p,
+ .secction5 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction5 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction5 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction5 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction5 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction5 h4 {
+     font-size: 26px;
+   }
+
+   .secction5 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction6 {
+   position: relative;
+   background: url(https://i.ibb.co/jrx77n7/Whats-App-Image-2024-07-01-at-10-31-17-AM.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   min-height: 500px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   overflow: hidden;
+ }
+
+
+ /* 🟪 Capa de color encima del fondo */
+ .background-overlay6 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(120, 122, 172, 0.6);
+   /* Azul translúcido */
+   z-index: 1;
+ }
+
+ /* 🟨 Contenido */
+ .secction6 .container {
+   position: relative;
+   z-index: 2;
+   /* Sobre el overlay */
+   color: rgb(3, 3, 5);
+   font-family: Dancing Script, cursive;
+   font-weight: bolder;
+   font-style: normal;
+   padding: 40px 20px;
+ }
+
+ .secction6 .row {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 25px;
+ }
+
+ .secction6 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction6 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction6 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction6 p,
+ .secction6 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction6 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction6 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction6 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction6 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction6 h4 {
+     font-size: 26px;
+   }
+
+   .secction6 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+
+
+ .secction6 .col {
+   flex: 1 1 300px;
+   /* 3 columnas en desktop, 1-2 en pantallas pequeñas */
+   max-width: 350px;
+   background: rgba(255, 255, 255, 0.15);
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   transition: transform 0.3s ease;
+   text-align: left;
+ }
+
+ .secction6 .col:hover {
+   transform: scale(1.05);
+ }
+
+ .secction6 h4 {
+   font-size: 25px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   text-align: center;
+   text-decoration: underline;
+ }
+
+ .secction6 p,
+ .secction6 .col {
+   font-size: 22px;
+   line-height: 1.5;
+ }
+
+ /* 🌍 RESPONSIVE */
+ @media (max-width: 992px) {
+   .secction6 {
+     background-attachment: scroll;
+     /* Mejora rendimiento en móviles */
+   }
+
+   .secction6 .col {
+     flex: 1 1 45%;
+     /* 2 columnas en tablets */
+   }
+
+   .secction6 h4 {
+     font-size: 30px;
+   }
+ }
+
+ @media (max-width: 600px) {
+   .secction6 .col {
+     flex: 1 1 100%;
+     /* 1 columna en móviles */
+   }
+
+   .secction6 h4 {
+     font-size: 26px;
+   }
+
+   .secction6 .col {
+     font-size: 20px;
+     padding: 15px;
+   }
+ }
+ 
