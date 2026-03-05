@@ -1,6 +1,7 @@
 /* Espacio para evitar que el contenido quede bajo el navbar */
 body {
   padding-top: 80px;
+ 
 }
 
 /* Estado inicial del navbar */
@@ -10,6 +11,11 @@ body {
   box-shadow: none;
   transition: all 0.4s ease-in-out;
   position: fixed;
+  padding: 10px;
+   
+
+  
+  
 }
 
 /* Links iniciales */
@@ -17,6 +23,10 @@ body {
 #navbar .navbar-brand {
   color: #000 !important;
   transition: color 0.4s ease;
+  font-size: 25px;
+  
+
+   
 }
 
 /* Hover */
@@ -24,10 +34,11 @@ body {
   color: #071770 !important;
 }
 
+
 /* Al hacer scroll */
 #navbar.scrolled {
   background: #003366; /* color más oscuro */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.4s ease-in-out;
 }
 
@@ -49,7 +60,7 @@ body {
   }
   to {
     transform: translateY(0);
-    opacity: 1;
+    opacity: .9;
   }
 }
 
@@ -59,9 +70,8 @@ body {
   border: none;
   transition: all 0.3s ease;
   font-family: Dancing Script, cursive;
-   
   
-  
+ 
   
 }
 

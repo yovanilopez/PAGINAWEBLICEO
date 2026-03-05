@@ -6,7 +6,7 @@ import { PrimariaComponent } from './primaria/primaria.component';
 import { FinsemanaComponent } from './finsemana/finsemana.component';
 
 export const routes: Routes = [
-      { path: "", redirectTo: "FINSEMANA", pathMatch: "full" },
+      { path: "", redirectTo: "HOME", pathMatch: "full" },
 
       { path: "MATUTINA", component: MatutinaComponent },
       { path: "HOME", component: HomeComponent },
