@@ -4,6 +4,7 @@ import { MatutinaComponent } from './matutina/matutina.component';
 import { VespertinaComponent } from './vespertina/vespertina.component';
 import { PrimariaComponent } from './primaria/primaria.component';
 import { FinsemanaComponent } from './finsemana/finsemana.component';
+import { LoginComponent } from './login/login.component';
 
 export const routes: Routes = [
       { path: "", redirectTo: "HOME", pathMatch: "full" },
@@ -13,6 +14,7 @@ export const routes: Routes = [
       { path: "VESPERTINA", component: VespertinaComponent },
       { path: "PRIMARIA", component: PrimariaComponent },
       { path: "FINSEMANA", component: FinsemanaComponent },
+      { path: "LOGIN", component:LoginComponent},
 
 
 
