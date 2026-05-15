@@ -1,3 +1,9 @@
+* {
+
+    margin: 0;
+    padding: 12px
+}
+
 .header {
 
     background-size: cover;
@@ -7,8 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -4%;
-
+    
 }
 
 
@@ -31,7 +36,7 @@
     padding-left: 0%;
     width: 600%;
     padding-top: 30px;
-    animation: slide 20s infinite alternate ease-in-out;
+    animation: slide 15s infinite alternate ease-in-out;
 
 
 }
