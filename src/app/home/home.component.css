@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -3%;
+    margin-top: -4%;
 
 }
 
@@ -51,10 +51,6 @@
     opacity: .8;
     background-size: cover;
     background-attachment: fixed;
-   
-   
-
-
 }
 
 @keyframes slide {
