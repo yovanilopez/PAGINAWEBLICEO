@@ -29,7 +29,7 @@
 
     display: flex;
     padding-left: 0%;
-    width: 400%;
+    width: 600%;
     padding-top: 30px;
     animation: slide 20s infinite alternate ease-in-out;
 
@@ -51,42 +51,66 @@
     opacity: .8;
     background-size: cover;
     background-attachment: fixed;
+   
+   
 
 
 }
 
 @keyframes slide {
+
+    /* Imagen 1 */
     0% {
         margin-left: 0;
     }
 
-    20% {
+    15% {
         margin-left: 0;
     }
 
-    25% {
+    /* Imagen 2 */
+    20% {
         margin-left: -100%;
     }
 
-    45% {
+    35% {
         margin-left: -100%;
+    }
+
+    /* Imagen 3 */
+    40% {
+        margin-left: -200%;
     }
 
     50% {
         margin-left: -200%;
     }
 
-    70% {
-        margin-left: -200%;
+    /* Imagen 4 */
+    55% {
+        margin-left: -300%;
     }
 
-    75% {
+    60% {
         margin-left: -300%;
+    }
+     /* Imagen 5*/
+    65% {
+        margin-left: -400%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+     /* Imagen 6 */
+    85% {
+        margin-left: -500%;
     }
 
     100% {
-        margin-left: -300%;
+        margin-left: -500%;
     }
+
 }
 .secction2 {
     text-align: center;
